@@ -1,0 +1,140 @@
+/* General styles for the CartPage */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.cart-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.cart-table td {
+  vertical-align: middle;
+}
+
+.cart-item-details {
+  font-size: 14px;
+  color: #777;
+}
+
+.remove-btn {
+  background-color: #ff4d4f;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-btn:hover {
+  background-color: #e04344;
+}
+
+.cart-summary {
+  text-align: right;
+  border-top: 2px solid #ddd;
+  padding-top: 20px;
+}
+
+.cart-summary h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cart-summary p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.checkout-btn {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background-color: #43a047;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+
+.error {
+  color: #ff4d4f;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.empty-cart {
+  text-align: center;
+  padding: 40px 20px;
+  border: 2px dashed #ddd;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+.empty-cart p {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.continue-shopping-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.continue-shopping-btn:hover {
+  background-color: #0056b3;
+}
